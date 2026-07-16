@@ -256,8 +256,12 @@ http://localhost:3000
 
 Swagger:
 
-http://localhost:3000/api
+http://localhost:3000/api/docs
+
+---
+
 Development
+
 Frontend
 
 Install:
@@ -271,6 +275,9 @@ npm run dev
 Build:
 
 npm run build
+
+---
+
 Backend
 
 Install:
@@ -285,7 +292,9 @@ Production build:
 
 npm run build
 npm run start:prod
-Notes
+
+---
+
 Database не используется согласно условиям задания
 Состояние хранится in-memory
 Архитектура подготовлена с разделением API, бизнес-логики и UI слоев
