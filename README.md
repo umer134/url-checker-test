@@ -6,8 +6,7 @@ Fullstack приложение для создания задач проверк
 
 ## Demo
 
-<video src="./media/demo.mp4" controls="controls" width="800"></video>
-
+https://github.com/user-attachments/assets/c5d0347b-b910-454c-88b0-c565011189ab
 ---
 
 # Overview
