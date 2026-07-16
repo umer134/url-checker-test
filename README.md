@@ -103,30 +103,31 @@ cancelled
 
 ## Backend structure
 
+```text
 server/
 │
 ├── src/
-│ │
-│ ├── jobs/
-│ │ ├── dto/
-│ │ │ ├── create-job.dto.ts
-│ │ │ └── ...
-│ │ │
-│ │ ├── interfaces/
-│ │ │ └── job.interface.ts
-│ │ │
-│ │ ├── types/
-│ │ │ └── job.types.ts
-│ │ │
-│ │ ├── url-processor/
-│ │ │ ├── url-processor.service.ts
-│ │ │ └── ...
-│ │ │
-│ │ ├── jobs.controller.ts
-│ │ ├── jobs.service.ts
-│ │ └── jobs.module.ts
-│ │
-│ └── main.ts
+│   ├── jobs/
+│   │   ├── dto/
+│   │   │   ├── create-job.dto.ts
+│   │   │   └── ...
+│   │   │
+│   │   ├── interfaces/
+│   │   │   └── job.interface.ts
+│   │   │
+│   │   ├── types/
+│   │   │   └── job.types.ts
+│   │   │
+│   │   ├── url-processor/
+│   │   │   ├── url-processor.service.ts
+│   │   │   └── ...
+│   │   │
+│   │   ├── jobs.controller.ts
+│   │   ├── jobs.service.ts
+│   │   └── jobs.module.ts
+│   │
+│   └── main.ts
+```
 
 Backend разделен на слои:
 
@@ -138,6 +139,7 @@ Backend разделен на слои:
 
 ## Frontend structure
 
+```text
 client/
 │
 ├── src/
@@ -163,6 +165,7 @@ client/
 ├── JobList/
 ├── JobDetails/
 └── UI/
+```
 
 Frontend разделен на:
 
