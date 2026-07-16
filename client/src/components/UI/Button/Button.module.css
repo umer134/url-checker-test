@@ -1,0 +1,53 @@
+.button {
+  width: 100%;
+
+  min-height: 44px;
+
+  padding: 12px 20px;
+
+  border-radius: 12px;
+
+  border: none;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.button:disabled {
+  opacity: 0.5;
+
+  cursor: not-allowed;
+}
+
+.primary {
+  background: #2563eb;
+
+  color: white;
+}
+
+.secondary {
+  background: #e2e8f0;
+
+  color: #0f172a;
+}
+
+.danger {
+  background: #dc2626;
+
+  color: white;
+}

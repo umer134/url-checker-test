@@ -1,0 +1,81 @@
+.empty {
+  padding: 40px;
+  text-align: center;
+  color: #9ca3af;
+}
+
+.scrollArea {
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.card {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  background: white;
+  border-radius: 14px;
+  padding: 16px;
+
+  cursor: pointer;
+  text-align: left;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.active {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 12px;
+}
+
+.header time {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.progress {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.progress span {
+  margin-left: 8px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.stats {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.stats span:first-child {
+  color: #16a34a;
+}
+
+.stats span:last-child {
+  color: #dc2626;
+}

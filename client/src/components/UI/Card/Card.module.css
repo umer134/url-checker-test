@@ -1,0 +1,17 @@
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow:
+    0 10px 25px rgba(15, 23, 42, 0.08),
+    0 2px 6px rgba(15, 23, 42, 0.05);
+
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+}
+
+.card h2 {
+  margin: 0 0 20px;
+  font-size: 20px;
+  font-weight: 700;
+}

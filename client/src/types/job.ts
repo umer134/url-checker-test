@@ -33,13 +33,13 @@ export interface UrlResult {
   url: string;
   status: UrlStatus;
 
-  httpStatus?: number;
-  error?: string;
+  httpStatus?: number | null | undefined;
+  error?: string | null | undefined;
 
-  startedAt?: string;
-  finishedAt?: string;
+  startedAt?: string | null | undefined;
+  finishedAt?: string | null | undefined;
 
-  duration?: number;
+  duration?: number | null | undefined;
 }
 
 export interface JobDetails {

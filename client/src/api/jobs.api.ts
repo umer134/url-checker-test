@@ -2,6 +2,7 @@ import { httpClient } from "./http-client";
 import { API_ENDPOINTS } from "./endpoints";
 import type {
   CreateJobDto,
+  CreateJobResponse,
   JobDetailsResponse,
   JobsListResponse,
 } from "../models/job/job.model";
@@ -10,7 +11,7 @@ const { JOBS } = API_ENDPOINTS;
 
 export class JobsApi {
   async create(dto: CreateJobDto) {
-    const { data } = await httpClient.post<string>(JOBS.CREATE, { dto });
+    const { data } = await httpClient.post<CreateJobResponse>(JOBS.CREATE, dto);
 
     return data;
   }
